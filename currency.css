@@ -13,7 +13,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* for center */
     background-image: url("img/bgimg.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +84,7 @@ form input {
 }
 
 .select-container {
-    display: flex;  /* for aligning the flag and changer */
+    display: flex; 
     justify-content: center;
     align-items: center;
     width: 6rem;
@@ -124,11 +123,4 @@ form button {
     cursor: pointer;
     font-weight: 550;
 }
-/* -------------------------- */
-/* media queries */
-/* @media only screen and (min-width:576px) and (max-width:767px) {
-    .heading{
-        text-align: center;
-    }
-}
- */
+
